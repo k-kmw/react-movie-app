@@ -1,19 +1,22 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import styles from "./MovieDetail.module.css";
 
 function MovieDetail({img, title, year, rating, runtime, description, genres, url}) {
     return (
-        <div>
+        <div className={styles.container}>
         <img src={img}/>
         <h1>{title}</h1>
         <h2>year: {year}   rating: {rating}   runtime: {runtime} minutes</h2>
-        <p>{description}</p>
-        <h3>genre</h3>
-        <ul>
-            {genres.map((genre)=><li key={genre}>{genre}</li>)}
-        </ul>
+        <p className={styles.description}>{description}</p>
+        <div className={styles.genre}>
+            <h3 className={styles.genre__text}>genre: </h3>
+            <ul className={styles.genres}>
+                {genres.map((genre)=><li className={styles.genre__item} key={genre}>{genre}</li>)}
+            </ul>
+        </div>
         <a href={url}>{url}</a>
-        <h4><Link to="/">Home</Link></h4>
+        <h4><Link to={`${process.env.PUBLIC_URL}/`}>Home</Link></h4>
     </div>
     )
 }

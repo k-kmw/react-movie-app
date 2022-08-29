@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-import MovieDetail from "../MovieDetail";
+import MovieDetail from "../components/MovieDetail";
 import {useParams} from "react-router-dom";
 
 function Detail() {

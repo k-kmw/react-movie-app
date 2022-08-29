@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/https//k-kmw.github.io/react-movie-app/static/js/main.57d7441c.js",
-    "index.html": "/https//k-kmw.github.io/react-movie-app/index.html",
-    "main.57d7441c.js.map": "/https//k-kmw.github.io/react-movie-app/static/js/main.57d7441c.js.map"
+    "main.js": "/https//k-kmw.github.io/react-movie-app.git/static/js/main.ede616fa.js",
+    "index.html": "/https//k-kmw.github.io/react-movie-app.git/index.html",
+    "main.ede616fa.js.map": "/https//k-kmw.github.io/react-movie-app.git/static/js/main.ede616fa.js.map"
   },
   "entrypoints": [
-    "static/js/main.57d7441c.js"
+    "static/js/main.ede616fa.js"
   ]
 }
